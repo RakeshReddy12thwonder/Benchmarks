@@ -13,7 +13,7 @@ parameters:
   type: object
   default: 
 
-  - displayName: Blazor Wasm
+  - displayName: Blazor Wasm updated
     arguments: --scenario blazorwasmbenchmark $(blazorWasmJobs) --application.options.requiredOperatingSystem Linux
 
 steps:
