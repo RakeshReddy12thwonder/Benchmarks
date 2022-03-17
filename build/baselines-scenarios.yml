@@ -36,7 +36,7 @@ parameters:
   default: 
 
   # Platform
-  - displayName: Plaintext Platform
+  - displayName: Plaintext Platform 1
     arguments: --scenario plaintext $(platformJobs) --property scenario=PlaintextPlatform
     isPlatform: true
   - displayName: Json Platform
