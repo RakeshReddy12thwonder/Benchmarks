@@ -21,7 +21,7 @@ jobs:
     environmentVariables:
       database: "PostgreSQL"
       connectionString: >
-       "Server={{databaseServer}};Database=hello_world;User Id=benchmarkdbuser;Password=benchmarkdbpass;Maximum Pool Size=256;NoResetOnClose=true;Enlist=false;Max Auto Prepare=4"
+       "Server={{databaseServer}};Database=hello_world app;User Id=benchmarkdbuser;Password=benchmarkdbpass;Maximum Pool Size=256;NoResetOnClose=true;Enlist=false;Max Auto Prepare=4"
   postgresql:
     source:
       repository: https://github.com/TechEmpower/FrameworkBenchmarks.git

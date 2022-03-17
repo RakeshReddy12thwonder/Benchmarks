@@ -10,7 +10,7 @@ parameters:
   type: object
   default:
 
-  - displayName: "Build - BlazorWasm"
+  - displayName: "Build - BlazorWasm changes"
     arguments: --scenario blazorwasm $(buildJobs) --property scenario=BlazorWasm 
   - displayName: "Build - BlazorWasm (Hosted)"
     arguments: --scenario blazorwasm-hosted $(buildJobs) --property scenario=BlazorWasmHosted
